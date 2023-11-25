@@ -68,8 +68,8 @@ def genrate_summary(text:str, aim="summarization", model="facebook/bart-large-cn
    
    # call the llm model using pipeline
    summarizer = pipeline( aim , model)
+   
    # loop through each chunk the pass it to llm mode it will return sumarize 
-   # form of input text
    for i , chunk in enumerate(input_chunks):
       print(i)
       response = summarizer(chunk,do_sample=False)
@@ -83,6 +83,7 @@ def genrate_summary(text:str, aim="summarization", model="facebook/bart-large-cn
       if cpu_limit > 95:
          print("Cpu is exceded it's limit")
          return "".join(output_chunks)
+         
    # if every thing goes find give full sumarray text 
    return "".join(output_chunks)
 
