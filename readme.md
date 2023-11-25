@@ -39,7 +39,7 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/your-username/pdf_summarizer_bart.git
    ```
 
 2. **Navigate to the project directory:**
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 - **Input Text Limit:** The script may limit the number of input chunks to prevent excessive resource usage.
 - **CPU Usage Monitoring:** The script monitors CPU usage; if it exceeds 95%, it terminates to prevent resource overload.
-
+- **Double module use: ** if pyttsx3 works on your system don't install gtts and playsound if not then you have to install it.
 ## Contributors 🤝
 
 - [cythonboy](https://github.com/ganeshnikhil)
