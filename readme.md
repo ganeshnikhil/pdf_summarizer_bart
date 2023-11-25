@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ## Contributors 🤝
 
-- [Your Name](https://github.com/ganeshnikhil)
+- [cythonboy](https://github.com/ganeshnikhil)
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
