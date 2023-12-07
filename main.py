@@ -3,6 +3,7 @@ import pyttsx3
 from PyPDF2 import PdfReader
 from  psutil import cpu_percent
 from playsound import playsound
+from gtts import gTTS
 import re 
 import sys
 import os  
