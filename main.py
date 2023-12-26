@@ -129,7 +129,7 @@ def main():
          #genrated summary using hugging face model
          summary=genrate_summary(text)
          # convert text to speech
-         if not pytt_text_speech(summary):
+         if not pytt_txt_speech(summary):
             gtt_txt_speech(summary)
             
 if __name__ == "__main__":
