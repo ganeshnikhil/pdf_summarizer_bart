@@ -124,7 +124,7 @@ def main():
       path = argument[1].strip()
       if os.path.exists(path):
          # extracted text from pdf file
-         text=extract_text_from_pdf(filename)
+         text=extract_text_from_pdf(path)
          
          #genrated summary using hugging face model
          summary=genrate_summary(text)
